@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Search, Grid, List } from 'lucide-react'
 import { mockArtists, categories, locations, feeRanges } from '@/lib/data'
-import { Artist, FilterOptions } from '@/types/artist'
+import { FilterOptions } from '@/types/artist'
 
 export default function ArtistsPage() {
   const [searchTerm, setSearchTerm] = useState('')

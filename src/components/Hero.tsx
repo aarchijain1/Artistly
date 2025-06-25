@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { Search, Users, Calendar, Star } from 'lucide-react'
+import { Search, Users } from 'lucide-react'
 
 const Hero = () => {
   return (
